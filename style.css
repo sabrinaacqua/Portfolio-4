@@ -1,0 +1,401 @@
+/* LOADING PAGE */
+#loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: none;
+  }
+  
+  
+  .hero-image {
+    margin-bottom: 50px;
+  }
+  
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EFD7BD;
+    animation: spin 3s infinite linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .logo img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  /* HEADER SECTION */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+  }
+  
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    background-color: #EFD7BD;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+  }
+  
+  
+  nav li a:hover {
+    background-color: none;
+    border-bottom: 3px solid #875A3D;
+  }
+  
+  
+  /* BODY SECTION */
+  body {
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFD7BD;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 75px;
+    position: relative;
+  }
+  
+  
+  button {
+    background-color: #fff;
+    color: #875A3D;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #875A3D;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  
+  button:hover {
+    background-color: #875A3D;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  
+  /* Leaf image styles */
+  .centered-image {
+    display: block;
+    margin: -5px auto 0;
+    max-width: 50%;
+    height: 150px;
+  }
+  
+  
+  /* GIF container styles */
+  .gif-container {
+    display: none;
+    text-align: center;
+  }
+  
+  
+  .gif-container iframe {
+    width: 480px;
+    height: 400px;
+  }
+  
+  
+  .container {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  
+  
+  
+  h1 {
+    font-size: 45px;
+  }
+  
+  
+  h2 {
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+  
+  
+  h3 {
+    margin: 65px auto;
+    background-color: #178038;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+    max-width: 80%; /* Adjust the maximum width as desired */
+  }
+  
+  
+  .header-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(12, 1fr); /* Adjust the number of columns as needed */
+    background-color: #178038;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    border-bottom: 7px solid #034E29;
+  }
+  
+  
+  .header-container h3 {
+    grid-column: 2 / span 10; /* Adjust the column range to determine the width */
+    margin: 0; /* Reset margin to remove extra spacing */
+  }
+  
+  
+  
+  
+  
+  
+  h4 {
+    font-size: 19px;
+    font-weight: normal;
+  }
+  
+  
+  h5 {
+    width: 600px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+   
+   /* SKILLS SECTION */
+   .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+  }
+   
+  .skill-icons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+  
+  .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+      text-align: center;
+    }
+   
+  .skill:last-child {
+      margin-right: 0;
+    }
+   
+  .skill img {
+      height: 100px;
+      margin-bottom: 10px;
+      width: 100px;
+    }
+   
+  .skill p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+  }  
+  
+  
+  /* TOOLS */
+  .tools .tool {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    height: 75px;
+    width: 75px;
+  }
+  
+  
+  #tools {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #034E29;
+  }
+  
+  
+  .tools .tool img {
+    display: block;
+    margin: 0 auto;
+    height: 75px;
+    width: 75px;
+  }
+  
+  
+  
+  
+  /* MY WORK SECTION */
+  #my-work {
+    max-width: 900px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    #my-work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  
+  .case-study {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .case-study img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 25px;
+  }
+  
+  .case-study-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .case-study-text h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .case-study-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* FOOTER SECTION */
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #EFD7BD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+   
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+   
+    nav li {
+      margin: 0 10px;
+    }
+   
+    nav li a {
+      display: block;
+      padding: 10px;
+      color: #000;
+      text-decoration: none;
+    }
+   
+    nav li a:hover {
+      background-color: none;
+      color: black;
+      border-bottom: 3px solid #875A3D;
+    }
+   
+    .footer-logo {
+      margin-right: 1rem;
+    }
+   
+    .footer-logo img {
+      height: 50px;
+    }
+  
